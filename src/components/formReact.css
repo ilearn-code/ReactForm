@@ -1,0 +1,115 @@
+
+.container
+{
+ 
+    margin: auto;
+    margin-top: 200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 600px;
+    box-sizing: border-box;
+    max-height: 100vh;
+}
+
+.tittle
+{
+
+    font-size: 50px;
+    color: rgb(135, 22, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittleLine
+{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(135, 22, 240);
+
+}
+
+.inputs
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input
+{
+
+    background-color: #eaeaea;
+    width: 400px;
+    height:60px ;
+    display: flex;
+    align-items: center;
+    
+
+  
+}
+.input img 
+{
+
+    margin: 0px 20px;
+}
+
+.input input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: #797979;
+    /* background-color: #eaeaea; */
+}
+
+
+.texts span
+{
+    cursor: pointer;
+}
+.butttons{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* 
+.logIn
+{
+    height: 40px;
+    width: 100px;
+    background-color: purple;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+} */
+
+.submit
+{
+    height: 40px;
+    width: 100px;
+    background-color: purple;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.gray
+{
+
+
+background-color: #eaeaea;
+color: #676767;
+}
