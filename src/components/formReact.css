@@ -26,8 +26,9 @@
 
 .tittleLine
 {
-    width: 50px;
+    width: 80px;
     height: 5px;
+    margin-top: 3px;
     background-color: rgb(135, 22, 240);
 
 }
